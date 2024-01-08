@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "Discovery",
@@ -15,13 +15,16 @@
   ],
   "author": "Muhammad Ahmad",
   "license": "MIT",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@types/node": "^20.5.9",
+    "rimraf": "^5.0.5",
     "typescript": "^5.2.2"
   },
-
   "dependencies": {
-    "ping": "^0.4.4"
+    "ping": "^0.4.4",
+    "ts-node": "^10.9.2"
   }
 }
