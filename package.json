@@ -23,8 +23,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "ping": "^0.4.4",
-    "ts-node": "^10.9.2"
+    "ping": "^0.4.4"
   },
   "repository": {
     "type": "git",

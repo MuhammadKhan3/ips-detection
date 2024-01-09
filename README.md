@@ -24,7 +24,7 @@ The ips-detection module is a powerful tool for discovering active IP addresses 
    ```
 4. Get the Active IPs Function
    ```bash    
-    const Ips = activeIps.getIPs();
+    const Ips =await activeIps.getIPs();
    ```
 
 Adjust the content based on the specific features and usage details of your "ips-detection" module.
