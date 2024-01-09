@@ -1,5 +1,5 @@
 {
-  "name": "discover_ips",
+  "name": "detect_ips",
   "version": "1.0.1",
   "description": "A Discover Ips Library",
   "main": "index.js",
@@ -11,7 +11,9 @@
     "Discovery",
     "Network",
     "IP",
-    "Router"
+    "Router",
+    "Javascript",
+    "Detect IP"
   ],
   "author": "Muhammad Ahmad",
   "license": "MIT",
