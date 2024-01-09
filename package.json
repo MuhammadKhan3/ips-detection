@@ -1,6 +1,6 @@
 {
   "name": "detect_ips",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Discover Ips Library",
   "main": "index.js",
   "scripts": {
