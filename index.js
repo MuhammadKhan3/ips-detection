@@ -40,8 +40,3 @@ class  DiscoverIP {
 }
 
 module.exports=DiscoverIP
-const Dis=new DiscoverIP();
-
-Dis.getIPs().then((ips)=>{
-    console.log(ips)
-})
