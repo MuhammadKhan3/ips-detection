@@ -15,12 +15,12 @@ The ips-detection module is a powerful tool for discovering active IP addresses 
 
 2. Include it in your Node.js application:
    ```bash
-     const ipsDetection = require('ips-detection');
+     const ipsDetection = require('detect_ips');
    ```
 
 3. Utilize the getActiveIPs function to retrieve a list of active IPs:
    ```bash    
-    const activeIPs = new ipsDetection();
+    const activeIps = new ipsDetection();
    ```
 4. Get the Active IPs Function
    ```bash    
